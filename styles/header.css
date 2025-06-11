@@ -51,7 +51,17 @@
 }
 
 @media (max-width: 768px) {
+    .header_wrapper {
+        height: 70px;
+        padding: 0 0 0 45px;
+    }
     .header__nav {
         display: none;
+    }
+}
+
+@media (max-width: 390px) {
+    .header__actions .btn {
+        width: 90px;
     }
 }
